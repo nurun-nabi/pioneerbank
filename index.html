@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pioneer bank project</title>
+    <!--    google font style start-->
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <!--    google font style end-->
+  
+    <!--    font awsome style start-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--    main css start-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- login area  -->
+    <div id="login" class='common-style'>
+        <h2 class="text-center mb-5">pioneer bank account</h2>
+        <input type="text" class="form-control" placeholder="enter your email">
+        <br>
+        <input type="password" class="form-control" placeholder="enter your password">
+        <br>
+        <button id="loginbtn" class="btn btn-success">login</button>
+    </div>
+
+<!-- trnsiction area -->
+<div id="transaction-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="deposit transac">
+                        <h4>deposit</h4>
+                        <h2> $<span Id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="withdrow transac">
+                        <h4>withdrow</h4>
+                        <h2> $<span Id="currentWithdrow">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="balance transac">
+                        <h4>balance</h4>
+                        <h2> $<span Id="currentBalance">00</span></h2>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+            <div class="col-md-6">
+                <div class="common-style">
+                    <h4>deposit</h4>
+                    <input id="depositAmount"type="text" palceholder="enter your deposit" class="form-control">
+                    <br>
+                    <button id="addDeposit" type="button" class="btn btn-success">deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="common-style">
+                    <h4>withdrow</h4>
+                    <input id="currentDeposit" type="text" palceholder="enter your deposit" class="form-control ">
+                    <br>
+                    <button id ="withdrowbtn"type="button" class="btn btn-success">withdrow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+    <!-- footer part end-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+
+</html>
