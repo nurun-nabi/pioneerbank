@@ -9,7 +9,8 @@ body {
     font-family: sans-serif, arial;
     height: 3000px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -34,29 +35,32 @@ p {
 .clear {
     overflow: hidden;
 }
+
 /* login area design strar */
-#login h2{
+#login h2 {
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 500;
-    font-style:italic;
+    font-style: italic;
 }
+
 #login {
-	width: 50%;
-	margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
     box-shadow: 0px 3px 7px black;
     padding: 15px;
     margin-top: 50px;
     border-radius: 5px;
 }
 
-.common-style{
+.common-style {
     box-shadow: 0px 3px 7px black;
     padding: 40px;
     margin-top: 30px;
     border-radius: 5px;
 }
-.common-style h4{
+
+.common-style h4 {
     font-size: 25px;
     margin-bottom: 3px;
     font-weight: bold;
@@ -65,18 +69,22 @@ p {
     text-shadow: rgb(179, 136, 105);
 
 }
+
 /* login area design end */
 /* transaction area design start */
-.deposit{
+.deposit {
     background-color: rgb(185, 107, 107);
-} 
-.withdrow{
+}
+
+.withdrow {
     background-color: rgb(224, 131, 8);
-} 
-.balance{
+}
+
+.balance {
     background-color: rgb(114, 8, 96);
-} 
-.transac{
+}
+
+.transac {
     padding: 20px;
     border-radius: 5px;
     margin-top: 30px;
@@ -85,7 +93,12 @@ p {
     font-size: 30px;
 
 }
-#transaction-area{
+
+.depo h4 {
+    color: rgb(147, 30, 123);
+}
+
+#transaction-area {
     display: none;
 }
 
